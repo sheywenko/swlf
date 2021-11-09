@@ -26,8 +26,8 @@
 					<li><a href="#" class="nav-link">EVENTS</a></li>
 					<li><a href="#" class="nav-link">MEDIA</a></li>
 					<li><a href="#" class="nav-link">BLOG</a></li>
-					<li><a href="contact.html" class="nav-link>CONTACT US</a></li>
-					<li class="donate" class="nav-link"><a href="donation.html">DONATE NOW</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+					<li class="donate"><a href="donation.html">DONATE NOW</a></li>
 				</ul>
 			</div>
 			<i class="fa fa-bars" onclick="showMenu()"></i>
@@ -194,12 +194,6 @@
 		function hideMenu(){
 			navLinks.style.right ="-200px";
 		}
-	</script>
-	<script>
-		const linkTag = document.querySelectorAll('.nav-link');
-		linkTag.forEach(link => link.addEventListener('click',event => {
-			hideMenu();
-		}));
 	</script>
 	
 	

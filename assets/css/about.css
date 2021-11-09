@@ -64,7 +64,7 @@ nav .fa {
     width: 100%;
     height: 35vh;
     margin-top: 20px;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/assets/images/1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(/assets/images/1.jpg);
     background-position-y: -85px;
 }
 
@@ -296,6 +296,11 @@ nav .fa {
     }
     .nav-links ul {
         padding: 25px 20px;
+    }
+
+    .about-info{
+        background-size: cover;
+        background-position-y: -10px;
     }
     .mission-text {
        
