@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4 , 9, 30, 0.4)),url(/assets/images/3.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4 , 9, 30, 0.5)),url(/assets/images/3.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -93,7 +93,7 @@ nav .fa {
    color: #fff;
    position: absolute;
    text-align: center;
-   top: 40%;
+   top: 30%;
    left: 5%;
    transform: translate(-50%,-50%);
    
@@ -112,6 +112,8 @@ nav .fa {
     margin: 10px 0 40px;
     font-size: 40px;
     font-style: italic;
+    color: rgb(58, 223, 58);
+    font-weight: 800;
 
 }
 
@@ -435,19 +437,19 @@ nav .fa {
     }
     nav img {
         padding: 15px;
-        width: 100px;
-        height: 100px;
+        width: 65px;
+        height: 65px;
     }
     .nav-links ul li {
         display: block;
     }
     .nav-links {
         position: absolute;
-        background: #c83349;
+        background: #a71f33;
         height: 100vh;
         width: 200px;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
         transition: 1s;
