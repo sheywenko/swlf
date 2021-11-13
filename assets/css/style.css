@@ -428,6 +428,7 @@ nav .fa {
 }
 
 @media(max-width:750px){
+    
     .title h1{
         font-size: 35px;
         text-align: center;
@@ -448,8 +449,8 @@ nav .fa {
         background: #a71f33;
         height: 100vh;
         width: 200px;
-        top: 0;
         right: -200px;
+        top: 0;
         text-align: left;
         z-index: 2;
        
